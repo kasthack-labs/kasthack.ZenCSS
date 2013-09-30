@@ -1,0 +1,27 @@
+@-moz-document domain("twitter.com") {
+/* hide */
+.dashboard, .people, .profile, .topics, .profile-card.profile-header, .global-nav .pull-right .nav, .topbar-divider, .stream-item-header .avatar {
+	display:none !important;
+	opacity:0 !important;
+	width:0px !important;
+	height:0px !important;
+}
+
+/* remove background */
+body.user-style-tvrain {
+    background-size: 0% 0%;
+}
+  
+/* width: 100% */
+.content-main {
+	width:100% !important;
+}
+/* wide page*/
+#page-container, .global-nav .container {
+	width:80% !important;
+}
+/* avatar fix*/
+.stream-item .content {
+	margin-left: 0px;
+}
+}
