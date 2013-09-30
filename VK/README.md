@@ -1,3 +1,3 @@
-Zen CSS for VK.com
+#Zen CSS for VK.com
 
-install: http://userstyles.org/styles/93513/vk-zen
+Stylish URL: http://userstyles.org/styles/93513/vk-zen
