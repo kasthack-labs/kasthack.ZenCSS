@@ -22,7 +22,7 @@ div#comics img#cm_strip {
 	width: 100% !important;
 }
 /* nice font */
-* {
+*, div.quote div.text {
   font-family: Segoe UI;
 }
 }
