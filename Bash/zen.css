@@ -6,6 +6,7 @@
 	width:0px !important;
 	height:0px !important;
 }
+
 /* wide workspace */
 #body{
 	width:90% !important;
@@ -19,5 +20,9 @@ div#comics div#navi {
 }
 div#comics img#cm_strip {
 	width: 100% !important;
+}
+/* nicefont*/
+* {
+  font-family: Segoe UI;
 }
 }
