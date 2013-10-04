@@ -1,6 +1,6 @@
 @-moz-document domain("ithappens.ru") {
 /* hide */
-td.top, td.footer, .side, body > div, div.share, p.storytags {
+td.top, td.footer, .side, body>div, div.share, p.storytags, div.text>div.info {
 	display:none !important;
 	opacity:0 !important;
 	width:0px !important;
@@ -10,7 +10,6 @@ td.top, td.footer, .side, body > div, div.share, p.storytags {
 table.content {
   width: 90%;
 }
-/*narrow window fix*/
 body {
 	min-width:200px;
 }
