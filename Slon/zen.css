@@ -1,0 +1,24 @@
+@-moz-document domain("slon.ru") {
+/* hide garbage */
+.header.small, .additional, .footer, .footer_space, .b-comment-rules, .b-fb-group-join, .b-story-siblings, .layout .wrapper .main-column .content.head-block, .b-article-image__inset-shadow, .b-article-image__inset-title-shadow, .b-article-detail__name-wrap, .b-article-detail__readalso {
+    display:none !important;
+	opacity:0 !important;
+	width:0px !important;
+	height:0px !important;
+}
+/* wide post area*/
+.layout .wrapper .main-column, .layout, .b-article-detail__comments, #b-article-detail__comments-vk, .fb-comments.fb_iframe_widget, .fb-comments.fb_iframe_widget, .fb_iframe_widget>span>iframe {
+  width: 100% !important;
+}
+.layout .wrapper, .l-appheroes, #b-article-detail__comments-vk>iframe, .fb_iframe_widget>span {
+	width: 90% !important;
+}
+/* wide post area */
+.layout .wrapper .main-column .content .wrap, .layout .wrapper .main-column .content #content{
+  max-width:99999px !important;
+}
+/* title fix*/
+.b-article-detail__name.wide {
+	left: 25%;
+}
+}
