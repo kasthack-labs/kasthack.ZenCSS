@@ -1,6 +1,4 @@
 @-moz-document domain("vk.com") {
-/* hide */
-
 #audio_friends, #footer_wrap, #group_narrow, #im_rcemoji_cont, #im_sound_controls, #im_user_holder, #page_header, #profile_info, #profile_narrow, #profile_photos_module, #public_help_steps_module, #public_short, #side_bar, #stl_bg, #stl_left,#stl_left.over, #stl_side, .dialogs_photo, .emoji_smile_icon, .emoji_smile_icon_on, .group_info, .im_log_author, .im_log_rspacer, .post_image, .published_by_photo, .reply_image {
 	display:none !important;
 	opacity:0 !important;
@@ -8,68 +6,68 @@
 	height:0px !important;
 }
 
-/* remove borders */
+
 
 #wrap2, #wrap1 {
 	border: none !important;
 }
 
-/* auto center */
+
 
 #page_layout, ul.t0, #friends #main_class table, #page_body, #group_wide, #profile_wide, #im_nav_wrap, #im_controls_wrap, .post_info, .wall_text, .wall_post_text, .post_media, .media_desc, .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped {
 	margin:auto !important;
 }
 
-/* width - 100% */
+
 
 #page_layout, ul.t0, #friends #main_class table, .post_info, .wall_text, .wall_post_text, .post_media, .media_desc, .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped, #im_write_form, #im_texts, .im_txt_wrap, #audio.new .area, #ac .shadow, #ac .shadow div 
 {
 	width:100% !important;
 }
-/* width - 98% */
+
 
 #page_body, #group_wide, #profile_wide, #im_nav_wrap, #im_controls_wrap, .audio_fixed_nav #ac  {
 	width:98% !important;
 }
 
-/* width - 96% */
+
 
 .im_editable, #audio.new .audio_table .audio {
   width: 96% !important;
 }
 
-/* width - 90% */
+
 
 #audio.new .audio .info, #audio.new .audio .title_wrap  {
   width: 90% !important;
 }
 
-/* width - 80% */
+
 
 #friends .main_panel, #audio .main_panel {
   width: 80% !important;
 }
 
-/* width - 60% */
+
 
 #ac .info {
 	width: 60% !important;
 }
 
-/* width - 20% */
+
 
 #friends .side_panel, #audio_wrap .side_panel {
   width: 20% !important;
 }
 
-/*text*/
+
 
 .post_info, .wall_text, .wall_post_text, .post_media, .media_desc, .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped, #audio.new .audio .title_wrap {
 	overflow: visible !important;
 	word-wrap: break-word !important;
 }
 
-/* various */
+
 
 .im_log_act, .im_log_check_wrap{
 	width:25px !important;
@@ -92,7 +90,7 @@ div#im_nav_wrap {
   padding: 10px 0 9px !important;
 }
 
-#audio.new .audio .title_wrap b {
+#audio.new .audio .title_wrap b, .wide_wall_module .wall_post_text, .wall_module .reply_text, .wide_wall_module .reply_text {
 	max-width:9999px;
 }
 }
