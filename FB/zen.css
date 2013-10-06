@@ -1,6 +1,6 @@
 @-moz-document domain("fb.com"), domain("facebook.com") {
 /* drop shit*/
-#pageFooter, #rightCol, #leftCol, #pagelet_megaphone, #pagelet_stream_pager, #pagelet_bookmark_nav, #pageLogo, #pagelet_timeline_friends_unit, ._5amy, .fbTimelineUnit.firstUnit, .UFILikeSentence, .megaphone_story_wrapper, #pagelet_pymk_timeline {
+#pageFooter, #rightCol, #leftCol, #pagelet_megaphone, #pagelet_stream_pager, #pagelet_bookmark_nav, #pageLogo, #pagelet_timeline_friends_unit, ._5amy, .fbTimelineUnit.firstUnit, .UFILikeSentence, .megaphone_story_wrapper, #pagelet_pymk_timeline, #timeline_tab_content_extra {
   	display:none !important;
 	opacity:0 !important;
 	width:0px !important;
@@ -8,12 +8,14 @@
 }
 
 /* make wide */
-#globalContainer, #content, #mainContainer, #contentCol, .shareRedesign, .UFIContainer, .fbTimelineUFI.uiCommentContainer, .bottomBorder, .topBorder, .fbTimelineUnit .spinePointer, ._3rbg, .fbTimelineUnit, .timelineReportContainer, .fbTimelineComposerUnit, .timelineUnitContainer, .uiScrollableAreaBody, .uiScrollableAreaContent, div.uiScrollableArea._2nc.uiScrollableAreaWithTopShadow.nofade.uiScrollableAreaWithShadow.uiScrollableAreaBottomAligned.contentBefore  {
+#globalContainer, #content, #mainContainer, #contentCol, .shareRedesign, .UFIContainer, .fbTimelineUFI.uiCommentContainer, .bottomBorder, .topBorder, .fbTimelineUnit .spinePointer, ._3rbg, .fbTimelineUnit, .timelineReportContainer, .fbTimelineComposerUnit, .timelineUnitContainer, .uiScrollableAreaBody, .uiScrollableAreaContent, div.uiScrollableArea._2nc.uiScrollableAreaWithTopShadow.nofade.uiScrollableAreaWithShadow.uiScrollableAreaBottomAligned.contentBefore, ._3rbh, .fbTimelineStickyHeader.stickyHeaderWrap, .fbTimelineFriendsBoxLarge, .stickyHeaderWrap.clearfix {
 	width:100% !important;
+}
+#contentArea, .timelineLayout #contentArea, .timelineRecentActivityTextBlock, .fbTimelineStickyHeader.fixed_elem {
+	width:90% !important;
 }
 
 #contentArea, .timelineLayout #contentArea {
-	width:90% !important;
   	margin-left:5% !important;
   	margin-right:5% !important;
 }
@@ -39,6 +41,9 @@
 }
 
 /* 1 col timeline */
+._3rbh{
+  top:inherit !important;
+}
 .fbTimelineTwoColumn[data-side="r"], .fbTimelineTwoColumn[data-side="l"]  {
     clear: left !important;
     float: left !important;
