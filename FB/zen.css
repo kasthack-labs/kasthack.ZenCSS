@@ -1,6 +1,6 @@
 @-moz-document domain("fb.com"), domain("facebook.com") {
 /* drop shit*/
-#pageFooter, #rightCol, #leftCol, #pagelet_megaphone, #pagelet_stream_pager, #pagelet_bookmark_nav, #pageLogo, #pagelet_timeline_friends_unit, ._5amy, .fbTimelineUnit.firstUnit, .UFILikeSentence, .megaphone_story_wrapper {
+#pageFooter, #rightCol, #leftCol, #pagelet_megaphone, #pagelet_stream_pager, #pagelet_bookmark_nav, #pageLogo, #pagelet_timeline_friends_unit, ._5amy, .fbTimelineUnit.firstUnit, .UFILikeSentence, .megaphone_story_wrapper, #pagelet_pymk_timeline {
   	display:none !important;
 	opacity:0 !important;
 	width:0px !important;
@@ -8,7 +8,7 @@
 }
 
 /* make wide */
-#globalContainer, #content, #mainContainer, #contentCol, .shareRedesign, .UFIContainer, .fbTimelineUFI.uiCommentContainer, .bottomBorder, .topBorder, .fbTimelineUnit .spinePointer, ._3rbg, .fbTimelineUnit, .timelineReportContainer, .fbTimelineComposerUnit, .timelineUnitContainer  {
+#globalContainer, #content, #mainContainer, #contentCol, .shareRedesign, .UFIContainer, .fbTimelineUFI.uiCommentContainer, .bottomBorder, .topBorder, .fbTimelineUnit .spinePointer, ._3rbg, .fbTimelineUnit, .timelineReportContainer, .fbTimelineComposerUnit, .timelineUnitContainer, .uiScrollableAreaBody, .uiScrollableAreaContent, div.uiScrollableArea._2nc.uiScrollableAreaWithTopShadow.nofade.uiScrollableAreaWithShadow.uiScrollableAreaBottomAligned.contentBefore  {
 	width:100% !important;
 }
 
@@ -90,5 +90,19 @@
     left: 418px !important;
     top: -20px !important;
     width: 15px !important;
+}
+
+
+
+
+
+
+
+/* im */
+._2nb {
+  width: 79% !important;
+}
+#u_jsonp_4_1>.div._ksg>div.wmMasterView {
+  width: 20% !important;
 }
 }
