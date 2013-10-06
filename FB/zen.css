@@ -1,0 +1,94 @@
+@-moz-document domain("fb.com"), domain("facebook.com") {
+/* drop shit*/
+#pageFooter, #rightCol, #leftCol, #pagelet_megaphone, #pagelet_stream_pager, #pagelet_bookmark_nav, #pageLogo, #pagelet_timeline_friends_unit, ._5amy, .fbTimelineUnit.firstUnit, .UFILikeSentence, .megaphone_story_wrapper {
+  	display:none !important;
+	opacity:0 !important;
+	width:0px !important;
+	height:0px !important;
+}
+
+/* make wide */
+#globalContainer, #content, #mainContainer, #contentCol, .shareRedesign, .UFIContainer, .fbTimelineUFI.uiCommentContainer, .bottomBorder, .topBorder, .fbTimelineUnit .spinePointer, ._3rbg, .fbTimelineUnit, .timelineReportContainer, .fbTimelineComposerUnit, .timelineUnitContainer  {
+	width:100% !important;
+}
+
+#contentArea, .timelineLayout #contentArea {
+	width:90% !important;
+  	margin-left:5% !important;
+  	margin-right:5% !important;
+}
+
+
+.fbTimelineNavigationWrapper .about {
+	width:60% !important;
+}
+
+.fbTimelineNavigationWrapper .likes, .fbTimelineNavigationWrapper .photos {
+	float:right !important;
+}
+.pagesTimelineLayout .fbTimelineNavigationPagelet {
+  width: 99% !important;
+  margin-left: 0.5% !important;
+  margin-right: 0.5% !important;
+}
+/* drop border*/
+
+.hasLeftCol #contentCol {
+    border-left: none !important;
+    margin-left: 0 !important;
+}
+
+/* 1 col timeline */
+.fbTimelineTwoColumn[data-side="r"], .fbTimelineTwoColumn[data-side="l"]  {
+    clear: left !important;
+    float: left !important;
+}
+.fbTimelineTwoColumn[data-side="l"] .spinePointer {
+    background-position: -822px -56px !important;
+    left: auto !important;
+    right: -18px !important;
+}
+._4_7u {
+	width: inherit !important;
+	float: none !important;
+    margin-left: 0 !important;
+}
+
+.fbTimelineUnit {
+    clear: both !important;
+    float: left !important;
+    margin-top: 5px !important;
+}
+
+.ogProfileLastUnit {
+    width: 815px !important;
+}
+
+.fbTimelineUFI.uiCommentContainer {
+  margin-left: 0px !important;
+}
+
+
+.bottomBorder, .topBorder, .fbTimelineUnit .spinePointer {
+    background-image: url('https://s-static.ak.facebook.com/rsrc.php/v1/yU/r/j0eBHOpxhI1.png') !important;
+    background-repeat: no-repeat !important;
+}
+
+.topBorder {
+    background-position: 0 -5px !important;
+}
+
+.bottomBorder {
+    background-position: 0 0px !important;
+}
+
+
+
+.fbTimelineUnit .spinePointer {
+    background-position: -810px -9px !important;
+    height: 21px !important;
+    left: 418px !important;
+    top: -20px !important;
+    width: 15px !important;
+}
+}
