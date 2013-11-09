@@ -20,13 +20,13 @@
 
 
 
-#page_layout, ul.t0, #friends #main_class table, .post_info, .wall_text, .wall_post_text, .post_media, .media_desc, .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped, #im_write_form, #im_texts, .im_txt_wrap, #audio.new .area, #ac .shadow, #ac .shadow div 
+#page_layout, ul.t0, #friends #main_class table, .post_info, .wall_text, .wall_post_text, .post_media, /*.media_desc,*/ .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped, #im_write_form, #im_texts, .im_txt_wrap, #audio.new .area, #ac .shadow, #ac .shadow div, #photos_choose_upload_area, #photos_choose_upload_area_cont.photos_choose_upload_area_cont, .photos_choose_upload_area
 {
 	width:100% !important;
 }
 
 
-#page_body, #group_wide, #profile_wide, #im_nav_wrap, #im_controls_wrap, .audio_fixed_nav #ac  {
+#page_body, #group_wide, #profile_wide, #im_nav_wrap, #im_controls_wrap, .audio_fixed_nav #ac {
 	width:98% !important;
 }
 
@@ -38,13 +38,13 @@
 
 
 
-#audio.new .audio .info, #audio.new .audio .title_wrap  {
+#audio.new .audio .info, #audio.new .audio .title_wrap, .wall_module #submit_post_box textarea   {
   width: 90% !important;
 }
 
 
 
-#friends .main_panel, #audio .main_panel {
+#friends .main_panel, #audio .main_panel, .dev_page_cont,  .popup_box_container, #photos_choose_upload_area_cont.photos_choose_upload_area_cont.fixed {
   width: 80% !important;
 }
 
@@ -91,6 +91,6 @@ div#im_nav_wrap {
 }
 
 #audio.new .audio .title_wrap b, .wide_wall_module .wall_post_text, .wall_module .reply_text, .wide_wall_module .reply_text {
-	max-width:9999px;
+	max-width:9999px !important;
 }
 }
