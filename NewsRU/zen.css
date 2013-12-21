@@ -1,0 +1,15 @@
+@-moz-document domain("newsru.com") {
+#stakan, table[width="770"]>tbody>tr>td[width="240"],table[width="770"]>tbody>tr>td[width="5"], .down, tr[valign], table[style="width:770px; height:60px"], table[style="width:770px; height:24px; background-color:#006a29; margin-bottom: 0px"], td[bgcolor="#0016a6"], div[style="padding-top: 5px;"], td[valign="bottom"] {
+	display:none !important;
+	opacity:0 !important;
+	width:0px !important;
+	height:0px !important;
+}
+table[width="770"]{
+  	width:1000px !important;
+  	margin:auto;
+}
+table[width="770"]>tbody>tr>td[width="525"]{
+	width:100% !important;
+}
+}
