@@ -1,0 +1,12 @@
+@-moz-document domain("izvestia.ru") {
+.footer, .inner_hots_block, .right_column, div.text_page>div.items_list>ul, #sideroll {
+	display:none !important;
+	opacity:0 !important;
+	width:0px !important;
+	height:0px !important;
+}
+.columned {
+  	background: none !important;
+    padding-right: 0px !important;
+}
+}
