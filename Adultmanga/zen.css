@@ -1,5 +1,5 @@
 @-moz-document domain("adultmanga.ru") {
-#header>.nav-main-menu, #headerFirst>.nonHover, .pageBlock.bottom_block, .rightContent, .pageBlock>.topControl>.right-control {
+#header>.nav-main-menu, #headerFirst>.nonHover, .pageBlock.bottom_block, .rightContent, .pageBlock>.topControl>.right-control, div[id^="ad"], noindex {
 	display:none !important;
 	opacity:0 !important;
 	width:0px !important;
