@@ -20,7 +20,7 @@
 
 
 
-#page_layout, ul.t0, #friends #main_class table, .post_info, .wall_text, .wall_post_text, .post_media, /*.media_desc,*/ .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped, #im_write_form, #im_texts, .im_txt_wrap, #audio.new .area, #ac .shadow, #ac .shadow div, #photos_choose_upload_area, #photos_choose_upload_area_cont.photos_choose_upload_area_cont, .photos_choose_upload_area, #album_title, #album_description, .photo_edit_caption, .scroll_fix, .docs_item, .audio_edit_row, .audio_edit_input input, .audio_edit_input input, .audio_edit_input textarea, .selector_container.dropdown_container {
+#page_layout, ul.t0, #friends #main_class table, .post_info, .wall_text, .wall_post_text, .post_media, /*.media_desc,*/ .page_media_thumbed_link, .page_media_link_title, .page_media_link_desc, .page_media_link_desc_wrap, .reply_info, .reply_text, .wall_reply_text, .im_in, .im_msg_text, .im_out, .wrapped, #im_write_form, #im_texts, .im_txt_wrap, #audio.new .area, #ac .shadow, #ac .shadow div, #photos_choose_upload_area, #photos_choose_upload_area_cont.photos_choose_upload_area_cont, .photos_choose_upload_area, #album_title, #album_description, .photo_edit_caption, .scroll_fix, .docs_item, .audio_edit_row, .audio_edit_input input, .audio_edit_input input, .audio_edit_input textarea, .selector_container.dropdown_container, #audio.new .audio_search .s_search, div.fw_post_info{
 	width:100% !important;
 }
 
@@ -31,7 +31,7 @@
 
 
 
-.im_editable, #audio.new .audio_table .audio {
+.im_editable, #audio.new .audio_table .audio, .fw_reply_text  {
   width: 96% !important;
 }
 
@@ -43,7 +43,7 @@
 
 
 
-#friends .main_panel, #audio .main_panel, .dev_page_cont,  .popup_box_container, #photos_choose_upload_area_cont.photos_choose_upload_area_cont.fixed, .video_search #v_search, .photo_edit_data, .app_search .s_search, .tdd_wrap.tdd_search, #apps_search>div.fl_l, .audio_edit_input, .result_list.result_list_scrollable, #album_name_input.fl_l {
+#friends .main_panel, #audio .main_panel, .dev_page_cont,  .popup_box_container, #photos_choose_upload_area_cont.photos_choose_upload_area_cont.fixed, .video_search #v_search, .photo_edit_data, .app_search .s_search, .tdd_wrap.tdd_search, #apps_search>div.fl_l, .audio_edit_input, .result_list.result_list_scrollable, #album_name_input.fl_l, #audio_search .fl_l:first-child, #choose_audio .audio_content {
   width: 80% !important;
 }
 
@@ -92,4 +92,18 @@ div#im_nav_wrap {
 #audio.new .audio .title_wrap b, .wide_wall_module .wall_post_text, .wall_module .reply_text, .wide_wall_module .reply_text {
 	max-width:9999px !important;
 }
+/*
+.wide_wall_module .post{
+	height:20px !important;
+}
+div.wall_text{
+	display:none !important;
+	opacity:0 !important;
+	width:0px !important;
+	height:0px !important;
+}
+img{
+	display:none !important;
+}
+*/
 }
