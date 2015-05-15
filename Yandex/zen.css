@@ -1,4 +1,4 @@
-@-moz-document domain("yandex.ru"), domain("ya.ru") {
+@-moz-document domain("yandex.ru"), domain("ya.ru"), domain("yandex.com")  {
 .b-line_foot, .b-yabrowser-promo__wrap, .b-inline_promo, .b-morda-search__sample, .b-sethome__link, .b-foot, .b-teaser, .b-shop-invitation, .b-inline_logo, .b-adv, .b-adv>a, a.b-link.i-bem.b-link_promo_yes, a.b-link.i-bem.b-link_pseudo_yes.b-link_inner_yes.b-link_js_inited>span.b-link__inner, div.b-inline.b-top-bar__item.b-topbar__body. .copy, #sethome, body>div.b-cards__enter.b-cards__enter_valentine2014 {
 	display:none !important;
 	opacity:0 !important;
