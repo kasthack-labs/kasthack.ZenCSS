@@ -3,7 +3,7 @@ body{
   background-image:none !important;
 }
 table[width="770"]{
-  	width:1000px !important;
+  	width:90% !important;	/*width:1000px !important;*/
   	margin:auto;
 }
 table[width="770"]>tbody>tr>td[width="525"]{
