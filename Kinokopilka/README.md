@@ -1,4 +1,4 @@
-#KinoKopilka
+# Kinokopilka.pro
 
 Zen CSS for Kinokopilka.pro (ex *.tv, *.ru)
 
