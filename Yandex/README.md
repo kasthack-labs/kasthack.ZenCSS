@@ -1,5 +1,5 @@
-#Yandex
+# Yandex
 
 Zen CSS for Yandex
 
-Stylish URL: -
+Stylish URL: https://userstyles.org/styles/157155/
