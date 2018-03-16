@@ -1,4 +1,4 @@
-#Newsru.com
+# Newsru.com
 
 Zen CSS for Newsru.com
 

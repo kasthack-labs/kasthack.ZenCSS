@@ -1,4 +1,4 @@
-#Izvestia
+# Izvestia
 
 Zen CSS for Izvestia.ru
 
